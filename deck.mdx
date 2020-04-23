@@ -1,5 +1,6 @@
 import myTheme from './theme'
 import submarine from './submarine_cables.png' 
+import spacejam from './spacejam.png'
 
 export const theme = myTheme
 
@@ -11,14 +12,16 @@ export const theme = myTheme
 
 ---
 # But first, what is the web?
-* Part of the internet
-* A group of servers
+* Part of the internet that you can interact with (websites, servers)
+* servers --> It's like a computer that runs on its own
+* the client (you) asks the server for information. The server returns the content to you
 
 ---
 # The internet
 
 * There are underwater cables that connect the internet to different land masses
 * There are also cables that go across the land to connect different cites/towns etc
+* sometimes satalites are used (more expensive and slower, longer distances without being connected)
 
 [Submarine cables!](https://www.submarinecablemap.com/#/)
 
@@ -28,13 +31,15 @@ export const theme = myTheme
 
  # Why do we create website?
 
- * give information
+ * give information (first website was used to publish research papers)
  * sell products 
  * to communicate
+ * watching dog videos
 
 ---
  
 # And what do we mean by web development?
+
 * making a website
 * adding new features and improving exisiting features
 * maintaining/bug fixing
@@ -43,21 +48,17 @@ export const theme = myTheme
 
 
 # Key components of a website
-* user friendly, easy to use
+* user friendly, easy to use, it does what it is meant to do
 * accessible
-* There are three main categories: content, design and logic
-
---- 
-
-# How the web has evolved
-
+* There are three main categories: content, design and interactivety. Every time you save something, or request new data, it goes to the server
 
 ---
 
 # HTML
 * Hypertext markup language
-* but why? -> to to define information across browsers
-* important to have web standards
+* markup --> structure of a page so that it's able to be transformed for users and for all computers
+* but why? -> used to structure text and works across all browsers
+* important to have web standards so things don't break
 
 --- 
 
@@ -67,17 +68,34 @@ export const theme = myTheme
 * it makes your website look good (colours, layout etc)
 * it allows you to style it different depending on screen size
 
+[the power of css](http://www.csszengarden.com/)
+
 --- 
 
 # JavaScript 
 
 * it makes websites interactive
+* alert boxes, refreshes, games etc
 
 ---
+
+
+# How the web has evolved
+
+[First website](https://worldwideweb.cern.ch/browser/)
+
+<img src={spacejam} alt="space jam screenshot" />
+
+* originally there was no CSS
+* Websites are more interactive, faster, and easier to use
+* Websites should always work, regardless of how old they are 
+
+---
+
 # demo time!
 
 Keep it simple, don't go into too much detail or show to many elements
-compare h1 to H1 etc of slides/word
+compare h1 to h1 etc of slides/word
 explain what each tag does
 
 <iframe
