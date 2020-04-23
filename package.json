@@ -7,5 +7,8 @@
   },
   "devDependencies": {
     "mdx-deck": "^4.1.1"
+  },
+  "dependencies": {
+    "react": "^16.13.1"
   }
 }
